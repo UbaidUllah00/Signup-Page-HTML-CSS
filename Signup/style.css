@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    background-color: grey;
+    display: inline-block;
+    height: 50px;
+}
+ .navbar{
+    display: inline-block;
+
+ }
+ .logo{
+    margin: 5px;
+    display: inline-flex;
+
+ }
+ .logo img{
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+ }
+
+ .navlink{
+    display: inline-block;
+    font-size: 17px;
+    margin: 0 50px;
+    padding: 0 18px;
+    margin-bottom: 5px;
+ }
+
+ .navlink li{
+   
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    margin: 0 20px;
+
+ 
+ }
+ a{
+    color: black;
+    text-decoration: none;
+ }
+
+ .signup{
+    width: 50%;
+    padding: 60px 0;
+    margin: 0px auto;
+ }
+
+ .fieldset{
+    text-align: center;
+    /* font-size: 40px;
+    font-weight: bold; */
+    padding: 18px 40px;
+ }
+ .formcontainer{
+    margin-top: 24px;
+ }
+
+ .formcontainer label{
+    display: block;
+ }
+ .formcontainer input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    margin-top: 12px;
+    border-radius: 7px;
+    background-color: lightblue;
+ }
+ .fieldset legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+ }
+ .final{
+    background-color: rgb(161, 184, 214);
+    height:100%;
+ }
+
+ .country label{
+    display: block;
+    margin-top: 19px;
+    margin-bottom: 8px;
+ }
+ .country1{
+    background-color: lightgrey;
+    color: black;
+   
+ }
+ .co1{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+ }
+ .gender label{
+    /* display: inline-block; */
+    margin-top: 19px;
+    margin-bottom: 8px;
+    padding: 0 5px;
+ }
+ .gen1{
+    display: block;
+  
+ }
+ .hobbies{
+    margin-top: 19px;
+    /* display: block; */
+    /* margin-bottom: 10px; */
+ }
+ .hob1{
+    display: block;
+    margin-bottom: 10px;
+    padding: 0 5px;
+ }  
+
+ .formcontainer button{
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 23px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 7px;
+    cursor: pointer;
+ }
